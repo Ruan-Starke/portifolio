@@ -1,0 +1,114 @@
+/* Tema escuro geral */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar escura */
+.navbar {
+  background-color: #1f1f1f;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #110909;
+}
+
+.nav-link {
+  color: #160b0b;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #0dcaf0;
+}
+
+/* Seções */
+section {
+  padding: 60px 0;
+}
+
+h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+/* Seção Sobre */
+#sobre {
+  background-color: #1e1e1e;
+}
+
+#sobre p.lead {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+  color: #bbbbbb;
+}
+
+/* Seção Projetos */
+#projetos {
+  background-color: #121212;
+}
+
+.card {
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.1);
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.95rem;
+}
+
+/* Seção Habilidades */
+#habilidades {
+  background-color: #1e1e1e;
+}
+
+#habilidades .badge {
+  font-size: 1rem;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 30px;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+}
+
+/* Seção Contato */
+#contato {
+  background-color: #121212;
+}
+
+#contato p {
+  font-size: 1.1rem;
+  color: #cccccc;
+}
+
+#contato a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+#contato a:hover {
+  text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+  background-color: #1f1f1f;
+  color: #aaaaaa;
+  font-size: 0.9rem;
+}
